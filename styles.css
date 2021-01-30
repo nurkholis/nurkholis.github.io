@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.navbar {
+.navbar{
     position: fixed;
     width: 100%;
     background-color: crimson;
