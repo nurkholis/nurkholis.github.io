@@ -40,4 +40,7 @@
 
 .navbar .menu li a{
     color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
 }
