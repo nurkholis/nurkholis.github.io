@@ -16,6 +16,7 @@
 .navbar{
     position: fixed;
     width: 100%;
+    padding: 15px 0;
     background-color: crimson;
     font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -27,5 +28,16 @@
 }
 
 .navbar .logokholis a{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
 
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: white;
 }
