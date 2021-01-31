@@ -7,9 +7,11 @@
     box-sizing: border-box;
 }
 
+/*styles for navbar*/
+
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 50px;
     margin: auto;
 }
 
@@ -29,7 +31,7 @@
 
 .navbar .logokholis a{
     color: white;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 600;
 }
 
@@ -43,4 +45,40 @@
     font-size: 16px;
     font-weight: 400;
     margin-left: 25px;
+}
+
+
+/*styles for index-landing page*/
+
+.index{
+    display: flex;
+    background: url(srcs/landing.jpg) no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.index .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.index .content-index .landingpage1{
+    font-size: 24px;
+}
+
+.index .content-index .landingpage2{
+    font-size: 32px;
+}
+
+.index .content-index .landingpage3{
+    font-size: 32px;
+}
+
+.index .content-index .landingpage4{
+    font-size: 24px;
+}
+
+.index .content-index .landingpage5{
+    font-size: 64px;
 }
