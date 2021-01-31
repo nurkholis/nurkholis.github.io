@@ -29,7 +29,7 @@
 
 .navbar .logokholis a{
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 }
 
@@ -40,7 +40,7 @@
 
 .navbar .menu li a{
     color: white;
-    font-size: 12px;
-    font-weight: 300;
-    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 25px;
 }
