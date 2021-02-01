@@ -18,9 +18,13 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 15px 0;
-    background-color: crimson;
+    padding: 20px 0;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.navbar .sticky{
+    padding: 20px 0;
+    background: turquoise;
 }
 
 .navbar .max-width{
@@ -32,7 +36,7 @@
 .navbar .logokholis a{
     color: white;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .navbar .menu li{
@@ -45,6 +49,11 @@
     font-size: 16px;
     font-weight: 400;
     margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: aqua;
 }
 
 
