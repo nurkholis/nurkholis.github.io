@@ -18,7 +18,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 30px 0;
+    padding: 20px 0;
     font-family: 'IBM Plex Sans', sans-serif;
     transition: all 0.3s ease;
 }
@@ -62,10 +62,6 @@
 
 .navbar.sticky .menu li a{
     color: rgb(71, 71, 71);
-    font-size: 16px;
-    font-weight: 500;
-    margin-left: 25px;
-    transition: color 0.3s ease;
 }
 
 .navbar .menu li a:hover{
@@ -80,13 +76,6 @@
     cursor: pointer;
     display: none;
 }
-
-.buttonmenu.sticky{
-    color:rgb(70, 70, 70);
-    cursor: pointer;
-    display: none;
-}
-
 
 
 /*styles for index-landing page*/
@@ -125,18 +114,32 @@
         padding: 0 30px;
     }
     .buttonmenu{
+        color: white;
+        display: block;
+        z-index: 999;
+    }
+    .buttonmenu.sticky{
         color: rgb(71, 71, 71);
         display: block;
         z-index: 999;
     }
+
+    .buttonmenu i.active{
+        color: rgb(71, 71, 71);
+    }
+
     .navbar .menu{
         position: fixed;
         height: 100vh;
         width: 100%;
-        left: 0;
+        left: -100%;
         top: 0;
         background: white;
         padding-top: 50px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
     }
     .navbar .menu li{
         display: block;
