@@ -72,6 +72,17 @@
 .navbar .menu li a:hover{
     color: aqua;
 }
+/* menu button styling*/
+
+.buttonmenu{
+    color:white;
+    cursor: pointer;
+}
+
+.buttonmenu.sticky{
+    color:rgb(70, 70, 70);
+    cursor: pointer;
+}
 
 /*styles for index-landing page*/
 
