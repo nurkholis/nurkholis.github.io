@@ -102,12 +102,64 @@
 .index .content-index .landingpage2{
     font-size: 200px;
     font-weight: 300;
-    margin-left: 500px;
-    line-height: 150px;
+    margin-left: 470px;
+    line-height: 175px;
 }
 
 
 /* Responsive Menu */
+
+@media (max-width: 1280px){
+    .index .content-index .landingpage1{
+        font-size: 24px;
+    }
+    
+    .index .content-index .landingpage2{
+        font-size: 180px;
+        font-weight: 300;
+        margin-left: 400px;
+        line-height: 160px;
+    }
+}
+
+@media (max-width: 1200px){
+    .index .content-index .landingpage1{
+        font-size: 24px;
+    }
+    
+    .index .content-index .landingpage2{
+        font-size: 170px;
+        font-weight: 300;
+        margin-left: 350px;
+        line-height: 150px;
+    }
+}
+
+@media (max-width: 1080px){
+    .index .content-index .landingpage1{
+        font-size: 24px;
+    }
+    
+    .index .content-index .landingpage2{
+        font-size: 150px;
+        font-weight: 300;
+        margin-left: 300px;
+        line-height: 125px;
+    }
+}
+
+@media (max-width: 1024px){
+    .index .content-index .landingpage1{
+        font-size: 24px;
+    }
+    
+    .index .content-index .landingpage2{
+        font-size: 135px;
+        font-weight: 300;
+        margin-left: 280px;
+        line-height: 120px;
+    }
+}
 
 @media (max-width: 960px){
     .max-width{
@@ -116,16 +168,18 @@
     .buttonmenu{
         color: white;
         display: block;
-        z-index: 999;
+        z-index: 100;
     }
+
     .buttonmenu.sticky{
         color: rgb(71, 71, 71);
         display: block;
-        z-index: 999;
+        z-index: 100;
     }
 
     .buttonmenu i.active{
-        color: rgb(71, 71, 71);
+        color:rgb(71, 71, 71);
+        transition: all 0.5s ease;
     }
 
     .navbar .menu{
@@ -153,4 +207,68 @@
         color: rgb(71, 71, 71);
         line-height: 50px;
     }
+    .index .content-index .landingpage1{
+        font-size: 24px;
+    }
+    
+    .index .content-index .landingpage2{
+        font-size: 125px;
+        font-weight: 300;
+        margin-left: 275px;
+        line-height: 100px;
+    }
+
 }
+
+@media (max-width: 800px){
+    .index .content-index .landingpage1{
+        font-size: 24px;
+    }
+    
+    .index .content-index .landingpage2{
+        font-size: 120px;
+        font-weight: 300;
+        margin-left: 250px;
+        line-height: 80px;
+    }
+
+
+}
+
+@media (max-width: 768px){
+    .index .content-index .landingpage1{
+        font-size: 24px;
+    }
+    
+    .index .content-index .landingpage2{
+        font-size: 115px;
+        font-weight: 300;
+        margin-left: 235px;
+        line-height: 75px;
+    }
+
+
+}
+
+@media (max-width: 720px){
+    .index .content-index .landingpage1{
+        font-size: 24px;
+    }
+    
+    .index .content-index .landingpage2{
+        font-size: 100px;
+        font-weight: 300;
+        margin-left: 225px;
+        line-height: 70px;
+    }
+
+
+}
+
+@media (max-width: 640px){
+}
+
+@media (max-width: 480px){
+}
+
+
