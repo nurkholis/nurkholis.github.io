@@ -47,7 +47,6 @@
     font-weight: 600;
 }
 
-
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -72,17 +71,23 @@
 .navbar .menu li a:hover{
     color: aqua;
 }
+
+
 /* menu button styling*/
 
 .buttonmenu{
     color:white;
     cursor: pointer;
+    display: none;
 }
 
 .buttonmenu.sticky{
     color:rgb(70, 70, 70);
     cursor: pointer;
+    display: none;
 }
+
+
 
 /*styles for index-landing page*/
 
@@ -110,4 +115,39 @@
     font-weight: 300;
     margin-left: 500px;
     line-height: 150px;
+}
+
+
+/* Responsive Menu */
+
+@media (max-width: 960px){
+    .max-width{
+        padding: 0 30px;
+    }
+    .buttonmenu{
+        color: rgb(71, 71, 71);
+        display: block;
+        z-index: 999;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: white;
+        padding-top: 50px;
+    }
+    .navbar .menu li{
+        display: block;
+        text-align: center;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(71, 71, 71);
+        line-height: 50px;
+    }
 }
