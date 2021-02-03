@@ -95,19 +95,44 @@
     margin: auto 0 auto 40px;
 }
 
-.index .content-index .landingpage1{
-    font-size: 24px;
+.index .content-index .landingpage > ul {
+    position: absolute;
+    top: 0%;
+    width: 800px;
+    height: 200px; 
+    left: 0%;
+    margin-left: 20px;
+    margin-top: 300px;
 }
 
-.index .content-index .landingpage2{
-    font-size: 200px;
-    font-weight: 300;
-    margin-left: 450px;
-    line-height: 175px;
+.index .content-index .landingpage ul > li{
+    list-style-type: none;
+    margin-top: 10px;
+    line-height: 50px;
+    position: absolute;
+    opacity: 0;
+    transition: 1s opacity; 
 }
 
+#animtext > li.animate{
+    opacity: 1;
+}
 
+.index .content-index .landingpage li strong{
+        color: #fff;
+        font-weight: 200;
+        font-size: 150px; 
+        line-height: 150px; 
+}
+
+.index .content-index .landingpage li p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 150px; 
+    line-height: 150px; 
+}
 /* Responsive Menu */
+
 
 @media (max-width: 1216px){
     .index .content-index .landingpage1{
@@ -129,7 +154,7 @@
     
     .index .content-index .landingpage2{
         font-size: 180px;
-        font-weight: 300;
+        font-weight: 350;
         margin-left: 300px;
         line-height: 155px;
     }
@@ -143,7 +168,7 @@
     .index .content-index .landingpage2{
         font-size: 170px;
         font-weight: 300;
-        margin-left: 300px;
+        margin-left: 250px;
         line-height: 145px;
     }
 }
@@ -156,7 +181,7 @@
     .index .content-index .landingpage2{
         font-size: 160px;
         font-weight: 300;
-        margin-left: 300px;
+        margin-left: 250px;
         line-height: 135px;
     }
 }
@@ -168,13 +193,13 @@
     .buttonmenu{
         color: white;
         display: block;
-        z-index: 100;
+        z-index: 999;
     }
 
     .buttonmenu.sticky{
         color: rgb(71, 71, 71);
         display: block;
-        z-index: 100;
+        z-index: 999;
     }
 
     .buttonmenu i.active{
@@ -214,7 +239,7 @@
     .index .content-index .landingpage2{
         font-size: 150px;
         font-weight: 300;
-        margin-left: 300px;
+        margin-left: 250px;
         line-height: 125px;
     }
 
