@@ -99,7 +99,7 @@
     position: absolute;
     top: 0%;
     width: 800px;
-    height: 200px; 
+    height: 200px;
     left: 0%;
     margin-left: 20px;
     margin-top: 300px;
@@ -111,34 +111,39 @@
     line-height: 50px;
     position: absolute;
     opacity: 0;
-    transition: 1s opacity; 
+    transition: 1s opacity;
 }
 
 #animtext > li.animate{
     opacity: 1;
+    position: absolute;
 }
 
 .index .content-index .landingpage li strong{
         color: #fff;
         font-weight: 200;
-        font-size: 150px; 
-        line-height: 150px; 
+        font-size: 150px;
+        line-height: 150px;
 }
 
 .index .content-index .landingpage li p{
     color: #fff;
     font-weight: 200;
-    font-size: 150px; 
-    line-height: 150px; 
+    font-size: 150px;
+    line-height: 150px;
 }
 /* Responsive Menu */
-
+.hidden{
+    color: red;
+    background: red;
+    display: none;
+}
 
 @media (max-width: 1216px){
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 190px;
         font-weight: 300;
@@ -151,7 +156,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 180px;
         font-weight: 350;
@@ -164,7 +169,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 170px;
         font-weight: 300;
@@ -177,7 +182,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 160px;
         font-weight: 300;
@@ -235,7 +240,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 150px;
         font-weight: 300;
@@ -249,7 +254,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 140px;
         font-weight: 200;
@@ -264,7 +269,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 130px;
         font-weight: 200;
@@ -279,7 +284,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 120px;
         font-weight: 200;
@@ -294,7 +299,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 110px;
         font-weight: 200;
@@ -307,7 +312,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 100px;
         font-weight: 200;
@@ -320,7 +325,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 90px;
         font-weight: 100;
@@ -333,7 +338,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 80px;
         font-weight: 100;
@@ -346,7 +351,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 70px;
         font-weight: 100;
@@ -359,7 +364,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 60px;
         font-weight: 100;
@@ -372,7 +377,7 @@
     .index .content-index .landingpage1{
         font-size: 24px;
     }
-    
+
     .index .content-index .landingpage2{
         font-size: 50px;
         font-weight: 100;
