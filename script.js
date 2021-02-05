@@ -62,4 +62,8 @@ $(document).ready(function () {
     }, timer);
 
 
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 263abbea1d53de01d3834cacacf80388ed0930e2
