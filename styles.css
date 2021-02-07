@@ -24,8 +24,10 @@
 }
 
 .navbar.sticky{
+    position: fixed;
     padding: 20px 0;
     background: white;
+    z-index: 5;
 }
 
 .navbar .max-width{
@@ -45,6 +47,7 @@
     color: rgb(71, 71, 71);
     font-size: 32px;
     font-weight: 600;
+
 }
 
 .navbar .menu li{
@@ -84,7 +87,7 @@
     display: flex;
     background: url(srcs/landing.jpg) no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: relative;
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -103,6 +106,7 @@
     left: 0%;
     margin-left: 20px;
     margin-top: 300px;
+    z-index: 1;
 }
 
 .index .content-index .landingpage ul > li{
@@ -112,6 +116,14 @@
     position: absolute;
     opacity: 0;
     transition: 1s opacity;
+    z-index: 1;
+}
+
+#animtext{
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+
 }
 
 #animtext > li.animate{
@@ -197,13 +209,13 @@
     .buttonmenu{
         color: white;
         display: block;
-        z-index: 999;
+        z-index: 10;
     }
 
     .buttonmenu.sticky{
         color: rgb(71, 71, 71);
         display: block;
-        z-index: 999;
+        z-index: 10;
     }
 
     .buttonmenu i.active{
